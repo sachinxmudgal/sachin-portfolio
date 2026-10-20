@@ -177,4 +177,5 @@ footer{display:flex;justify-content:space-between;padding-block:28px;border-top:
 @media(max-width:860px){.sheet{grid-template-columns:1fr}}
 
 .link{color:var(--poppy);font-weight:600;text-decoration-thickness:2px;text-underline-offset:4px}
-#skills > .sub{margin-top:30px}
+#skills > .sub{margin-top:30px;max-width:none}
+.link{white-space:nowrap}
